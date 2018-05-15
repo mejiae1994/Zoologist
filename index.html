@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoologist
+	</title>
+	<link rel="stylesheet" href="animal.css">
+	<script
+ 	 src="https://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="container">
+
+		<h1>Zoologist</h1>
+		<h2>Test your animal knowledge</h2>
+		<div id="settingD"> 
+		<button class="difficulty selected" ">Easy</button>
+     	<button class="difficulty" ">Medium</button>
+     	<!-- <button class="difficulty" ">Hard</input> -->
+		</div>
+		<canvas id="canvasImg" width="800" height="700">
+		</canvas>
+		<h3> What's the name of the animal shown</h3>
+		<hr>
+		<input id="answer" type="text" name="answer">
+		<label>Enter Answer</label>
+		
+		<div> 
+			<span id="gameover"> </span>
+			<br>
+			<span id="message"> </span>
+		</div>
+
+	</div>
+<script type="text/javascript" src="animal.js"></script>
+</body>
+</html>
